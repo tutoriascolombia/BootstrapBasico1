@@ -1,0 +1,21 @@
+.jumbotron{
+  background: orange
+}
+.info{
+  margin: 12px
+}
+.tutoriales{
+  flex: 1 170px;
+  padding: 6px;
+  border-top: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 4px
+}
+.btn-tutoriales{
+  width: 100%;
+}
+footer{
+  background: lightyellow;
+  padding: 24px 6px 6px 6px;
+  padding: 6px
+}
