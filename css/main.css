@@ -1,21 +1,26 @@
 .jumbotron{
-  background: orange
+  background: orange;
+  background-image: url('../images/JS.png');
+  background-repeat:no-repeat;
+  background-size: 100% auto;
+  background-position: left top;
+  background-attachment: fixed;
+  margin-top: 40px
 }
 .info{
   margin: 12px
 }
 .tutoriales{
-  flex: 1 170px;
-  padding: 6px;
-  border-top: 1px solid #ccc;
-  border-radius: 6px;
-  margin: 4px
+  flex: 1 200px;
+  margin-top: 10px
 }
 .btn-tutoriales{
   width: 100%;
+  border-radius: 0;
+  margin:0
 }
 footer{
   background: lightyellow;
-  padding: 24px 6px 6px 6px;
-  padding: 6px
+  padding: 16px 6px 6px 6px;
+  box-shadow: 0 0 6px #efefef;
 }
