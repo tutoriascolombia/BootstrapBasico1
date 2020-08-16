@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Tutoriales JavaScript | tutorias.co</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+    <a class="navbar-brand" href="#">Tutoriales JavaScript</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarNavDropdown" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./precios.html">Precios</a>
+      </li>
+       <li class="nav-item active">
+         <a class="nav-link" href="./contacto.html">Contacto</a>
+       </li>
+    </ul>
+    </div>
+   </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Banco de Tutoriales JavaScript</h1>
+        <p>Accede a este banco completo de tutoriales sobre programación nativa en JavaScript.</p>
+        <div>
+        <span class="badge badge-pill badge-success" data-toggle="modal" data-target="#infoModal">
+             &#9745; principiante
+        </span>
+        <br /><span class="badge badge-pill badge-info" data-toggle="modal" data-target="#infoModal">
+             &#9745; intermedio
+        </span>
+        </div>
+ 
+           <div class="modal fade container" id="infoModal">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <h6 class="modal-title">Principiante/Intermedio</h6>
+                   <button class="close" data-dismiss="modal" type="button"></button>
+                   <span aria-hidden="true">&times;</span>
+                 </div>
+                 <div class="modal-body">
+                   <p>Contenido básico para iniciados e intermedios en el lenguaje JavaScript. Los iniciados aprenderán declaración e inicialización de variables y constantes así como la implementación de enunciados de decisión, ciclos y estructuras de datos. Los intermedios aprenderán a crear funciones recursivas y programación orientada a objetos.</p>
+                 </div>
+               </div>
+             </div>
+           </div>     
+        
+        <button class="btn btn-md btn-danger mt-3" type="button" data-toggle="collapse" data-target="#suscripcion">¿Cómo me suscribo a los LIVES? <span class="badge badge-light">+164</button>
+          <div class="collapse" id="suscripcion">
+          <div id="suscribete">
+          <p>Suscribete a nuestro canal en youtube e identifica los lives que te interesan y continua los pasos.</p>
+        </div>
+        </div>
+        
+        <p><a class="btn btn-primary btn-lg mt-4" href="https://youtube.com/tutoriascolombia" role="button">Ver todos &raquo;</a></p>
+      </div>
+    </div>
+    <div class="container">
+    <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+       <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+       <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+       </ol>
+    </nav>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>¡Datos importantes!</strong> Ingresa todos los datos requeridos (*)
+      <button class="close" data-dismiss="alert" aria-label="Close" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <h2>Déjame tus datos</h2>
+    <form class="form" action="" method="post" accept-charset="utf-8">
+      <div class="form-row">
+        <div class="form-group col-sm-7">
+          <label for="nombre">Nombre*</label>
+          <input type="text" class="form-control" name="nombre" id="nombre" value="" placeholder="Tu nombre" required autofocus />
+        </div>
+        <div class="form-group col-sm-3">
+          <label for="nombre">Sexo*</label>
+          <select name="sexo" id="sexo" class="form-control" required>
+            <option value="0">Seleccionar</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+          </select>
+        </div>
+        <div class="form-group col-sm-2">
+          <label for="edad">Edad*</label>
+          <input type="number" name="edad" id="edad" value="" class="form-control" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email*</label>
+        <input class="form-control" type="email" name="email" id="email" value="" placeholder="Tu correo electrónico" required />
+      </div>
+      <div class="form-group">
+        <label for="url">Url</label>
+        <input class="form-control" type="url" name="url" id="url" value="" placeholder="Tu página web" />
+      </div>
+      <div class="form-group">
+        <label for="comentario">Comentario*</label>
+        <textarea name="comentario" id=comentario rows="8" cols="40" required class="form-control"></textarea>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="acepto" id="acepto" required class="form-control" />
+           <label class="form-check-label" for="acepto"> (*) Acepto enviar mis datos</label>
+        </div>
+      </div>
+      <input class="btn btn-primary" type="submit" name="enviar" id="enviar" value="Enviar" />
+    </form>
+    </div>
+  </div>
+  <br />
+  <footer>
+    <div class="d-flex flex-wrap">
+      <div class="col-md-4 d-flex flex-column align-items-start">
+        <a href="https://facebook.com/tutoriascolombia">FB @tutoriascolombia</a>
+        <a href="https://instagram.com/tutoriascolombia">IN @tutoriascolombia</a>
+        <a href="https://youtube.com/tutoriascolombia">YT tutoriascolombia</a>
+        <a href="https://pinterest.com/tutoriascolombia">PIN tutoriascolombia</a>
+        <a href="https://twitter.com/tutorias">TW @tutorias</a>
+      </div>
+      <div class="col-md-4">
+        <address>
+          CLL 65F 4731 APTO 303
+          CENTRO 050012
+          +57 3137658158
+          tutoriascolombia@gmail.com
+          MEDELLIN, COLOMBIA
+          &copy; Tutorias.co 202X
+        </address>
+      </div>
+      <div class="col-md-4 d-flex flex-column align-items-end">
+        <p>Fundamentece en el comportamiento nativo de una pagina web. Tutoriales explicativos del arte de la web con JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
