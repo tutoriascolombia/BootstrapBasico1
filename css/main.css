@@ -24,3 +24,36 @@ footer{
   padding: 16px 6px 6px 6px;
   box-shadow: 0 0 6px #efefef;
 }
+.jumbotron{
+  background: orange;
+  background-image: url('../images/JS.png');
+  background-repeat:no-repeat;
+  background-size: 100% auto;
+  background-position: left top;
+  background-attachment: fixed;
+  margin-top: 40px
+}
+.info{
+  margin: 12px
+}
+.tutoriales{
+  flex: 1 200px;
+  margin-top: 10px
+}
+.btn-tutoriales{
+  width: 100%;
+  border-radius: 0;
+  margin:0
+}
+#suscribete{
+  background: #FFFFFF;
+  padding: 6px;
+  font-size: 116%;
+  border: 3px solid pink;
+  border-radius: 3px
+}
+footer{
+  background: lightyellow;
+  padding: 16px 6px 6px 6px;
+  box-shadow: 0 0 6px #efefef;
+}
