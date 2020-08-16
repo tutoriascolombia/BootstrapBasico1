@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+    <title>Tutoriales JavaScript | tutorias.co</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+    <a class="navbar-brand" href="#">Tutoriales JavaScript</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarNavDropdown" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./precios.html">Precios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contacto.html">Contacto</a>
+      </li>
+    </ul>
+    </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Banco de Tutoriales JavaScript</h1>
+        <p>Accede a este banco completo de tutoriales sobre programación nativa en JavaScript.</p>
+        <div>
+        <span class="badge badge-pill badge-success" data-toggle="modal" data-target="#infoModal" >
+            &#9745; principiante
+        </span>       
+        <br /><span class="badge badge-pill badge-info" data-toggle="modal" data-target="#infoModal"  >
+            &#9745; intermedio
+        </span>
+        </div>
+        
+        <div class="modal fade container" id="infoModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6 class="modal-title">Principiante/Intermedio</h6>
+                <button class="close" data-dismiss="modal" type="button"></button>
+                <span aria-hidden="true">&times;</span>
+              </div>
+              <div class="modal-body">
+                <p>Contenido básico para iniciados e intermedios en el lenguaje JavaScript. Los iniciados aprenderán declaración e inicialización de variables y constantes así como la implementación de enunciados de decisión, ciclos y estructuras de datos. Los intermedios aprenderán a crear funciones recursivas y programación orientada a objetos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <button class="btn btn-md btn-danger mt-3" type="button" data-toggle="collapse" data-target="#suscripcion">¿Cómo me suscribo a los LIVES? <span class="badge badge-light">+164</button>
+        <div class="collapse" id="suscripcion">
+          <div id="suscribete">
+          <p>Suscribete a nuestro canal en youtube e identifica los lives que te interesan y continua los pasos.</p>
+          </div>
+        </div>     
+        
+        <p><a class="btn btn-primary btn-lg mt-4" href="https://youtube.com/tutoriascolombia" role="button">Ver todos &raquo;</a></p>
+      </div>
+    </div>
+    <div class="container">
+    <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+       <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+       </ol>
+    </nav>
+    
+    <div class="carousel slide" data-ride="carousel" id="carouselControls">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/arrays.jpg" alt="programa en JavaScript" />
+        </div>
+        <div class="carousel-item">
+           <img class="d-block w-100" src="images/funciones.jpg" alt="programa en JavaScript" />
+        </div>
+        <div class="carousel-item">
+           <img class="d-block w-100" src="images/poo.jpg" alt="programa en JavaScript" />
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselControls" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+    
+    <div class="row info">
+      <div class="col-md-4">
+        <h2>¿Cómo funciona?</h2>
+        <p>Encuentra el video tutorial y visita el link. Suscribete al canal y por una cuota módica aprende fácil con tu celular desde la comodidad de tu casa o universidad.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>¿Qué necesito?</h2>
+        <p>Internet y ganas de aprender el arte del comportamiento nativo de las páginas web.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>¿Cuánto dura aprender JavaScript?</h2>
+        <p>A tu ritmo y sin contratiempos.</p>
+      </div>
+    </div>
+    <div class="card-columns">
+      <div class="card tutoriales justify-content-between mr-3">
+        <img class="card-img-top" src="images/variables.png" alt="" />
+        <div class="card-body">
+        <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Declaración y nombramiento correcto de variables" >Variables</h5>
+        <h6 class="card-subtitle text-muted">Con Scope</h6>
+        <p class="card-text">Aprenda a declarar variables y constantes en todos los ámbitos del lenguaje JavaScript. Aprenda estándares y convensiones para el nombramiento de las variables.</p>
+        </div>
+        <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia"  title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial de variables"  role="button">Estudiar &raquo;</a></div>
+      </div>
+      <div class="card tutoriales justify-content-between mr-3">
+        <img class="card-img-top" src="images/condicionales.png" alt="" />
+        <div class="card-body">
+        <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Condicionales y uso eficiente de expresiones lógicas y booleanas" >Enunciados de decisión <span class="badge badge-primary">Nuevo</span></h5>
+        <h6 class="card-subtitle text-muted">Con eficiencia</h6>
+        <p class="card-text">Aprenda a mejorar el orden de magnitud de los caminos que puede tomar un programa.</p>
+        </div>
+        <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia"  title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial de enunciados de decisión"  role="button">Estudiar &raquo;</a></div>
+      </div>
+      <div class="card tutoriales justify-content-between">
+        <img class="card-img-top" src="images/ciclos.png" alt="" />
+        <div class="card-body">
+        <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Cuidado del orden de magnitud y análisis de posible uso o no de ciclos" >Estructuras repetitivas</h5>
+        <h6 class="card-subtitle text-muted">Con eficiencia</h6>
+        <p class="card-test">Domine los diferentes ciclos y aprenda a administrar la eficiencia de los loops.</p>
+        </div>
+        <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia"  title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial ee ciclos"  role="button">Estudiar &raquo;</a></div>
+      </div>
+      <div class="card tutoriales justify-content-between">
+        <img class="card-img-top" src="images/arrays.png" alt="" />
+        <div class="card-body">
+        <h5 class="card-title"  data-toggle="tooltip" data-placement="top" title="Manejo sencillo de stack y queue nativos" >Estructuras de datos</h5>
+        <h6 class="card-subtitle text-muted">Estáticas y de auto dimension</h6>
+        <p class="card-text">Implemente arrays unidimensionales, bidimensionales y multidimensionales. Implemente arrays autodimensionales. Maneje Stack y Queue.</p>
+        </div>
+        <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia"  title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial de Arrays"  role="button">Estudiar &raquo;</a></div>
+      </div>
+      <div class="card tutoriales justify-content-between">
+        <img class="card-img-top" src="images/funciones.png" alt="" />
+        <div class="card-body">
+        <h5 class="card-title"  data-toggle="tooltip" data-placement="top" title="parámetros por valor y por referencia" >Funciones</h5>
+        <h6 class="card-subtitle text-muted">Parámetros con o sin referencia</h6>
+        <p class="card-text">Desarrolle sus propias funciones y procesos.</p>
+        </div>
+        <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia" title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial de funciones/recursividad"  role="button">Estudiar &raquo;</a></div>
+      </div>
+      <div class="card tutoriales justify-content-between">
+        <img class="card-img-top" src="images/poo.png" alt="" />
+        <div class="card-body">
+        <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Nuevo paradigma de programación"  >POO <span class="badge badge-pill badge-danger">LIVE</span></h5>
+        <h6 class="card-subtitle text-muted">Clases estandarizadas [Martes 6PM CO]</h6>
+        <p class="card-text">Aplique metodología de programación orientada a objetos y reutilice soluciones de forma inteligente.</p>
+        </div>
+        <div><a class="btn btn-outline-danger btn-lg btn-tutoriales" title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial de POO" href="https://youtube.com/tutoriascolombia" role="button">Acceder &raquo;</a></div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <footer>
+    <div class="d-flex flex-wrap">
+      <div class="col-md-4 d-flex flex-column align-items-start">
+        <a href="https://facebook.com/tutoriascolombia">FB @tutoriascolombia</a>
+        <a href="https://instagram.com/tutoriascolombia">IN @tutoriascolombia</a>
+        <a href="https://youtube.com/tutoriascolombia">YT tutoriascolombia</a>
+        <a href="https://pinterest.com/tutoriascolombia">PIN tutoriascolombia</a>
+        <a href="https://twitter.com/tutorias">TW @tutorias</a>
+      </div>
+      <div class="col-md-4">
+        <address>
+          CLL 65F 4731 APTO 303
+          CENTRO 050012
+          +57 3137658158
+          tutoriascolombia@gmail.com
+          MEDELLIN, COLOMBIA
+          &copy; Tutorias.co 202X
+        </address>
+      </div>
+      <div class="col-md-4 d-flex flex-column align-items-end">
+        <p>Fundamentece en el comportamiento nativo de una pagina web. Tutoriales explicativos del arte de la web con JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(function(){
+      $("[data-toggle='tooltip']").tooltip();
+      $("[data-toggle='popover']").popover();
+      $('.carousel').carousel({
+       interval: 3000;
+      });
+    });
+  </script>
+  </body>
+</html>
