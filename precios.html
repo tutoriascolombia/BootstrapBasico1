@@ -50,6 +50,16 @@
                   </div>
                   <div class="modal-body">
                     <p>Contenido básico para iniciados e intermedios en el lenguaje JavaScript. Los iniciados aprenderán declaración e inicialización de variables y constantes así como la implementación de enunciados de decisión, ciclos y estructuras de datos. Los intermedios aprenderán a crear funciones recursivas y programación orientada a objetos.</p>
+                  <hr />
+                  <form class="form" method="post" action="">
+                    <div class="form-group">
+                      <label for="email">Preinscripción</label>
+                      <input class="form-control" type="email" name="email" id="email" value="" placeholder="Tu correo electrónico" required autofocus />
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control btn btn-primary" type="submit" name="enviar" id="enviar" value="Enviar" />
+                    </div>
+                  </form>
                   </div>
                 </div>
               </div>
@@ -201,5 +211,40 @@
   <script src="js/jquery-3.3.1.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(function() {
+      $("[data-toggle='tooltip']").tooltip();
+      $("[data-toggle='popover']").popover();
+      $('.carousel').carousel({
+        interval: 3000
+      });
+  
+      $('#infoModal').on('show.bs.modal', function(e) {
+        $('#btnPrincipiante').prop('disabled', true);
+        $('#btnIntermedio').prop('disabled', true);
+        $('#btnPrincipiante').removeClass('badge-secondary');
+        $('#btnIntermedio').removeClass('badge-secondary');
+        $('#btnPrincipiante').addClass('badge-success');
+        $('#btnIntermedio').addClass('badge-success');
+        console.log('Comienza a abrirse');
+      });
+      $('#infoModal').on('shown.bs.modal', function(e) {
+        console.log('Termina de abrirse')
+      });
+      $('#infoModal').on('hidden.bs.modal', function(e) {
+        console.log('Comienza a cerrarse');
+      });
+      $('#infoModal').on('hidden.bs.modal', function(e) {
+        $('#btnPrincipiante').prop('disabled', false);
+        $('#btnIntermedio').prop('disabled', false);
+        $('#btnPrincipiante').removeClass('badge-success');
+        $('#btnIntermedio').removeClass('badge-success');
+        $('#btnPrincipiante').addClass('badge-secondary');
+        $('#btnIntermedio').addClass('badge-secondary');
+        console.log('Termina de cerrarse');
+      });
+  
+    });
+  </script>
   </body>
 </html>
