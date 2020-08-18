@@ -1,2 +1,2 @@
 # BootstrapBasico1
-Grilla y Flex basico
+Grilla > Flex > Navs > Modals > Accordions > Forms > Tooltips >  Jquery > Sass
