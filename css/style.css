@@ -1,0 +1,30 @@
+/*   Se implemeta 
+     preprocesador SASS
+   
+$yellow: #fffa19;
+$red: #f00;
+$green: #0f0;
+
+@mixin rellenos($t, $r, $b, $l){
+  padding-top:$t;
+  padding-right:$r;
+  padding-bottom:$b;
+  padding-left:$l;
+}
+@mixin margenes($t, $r, $b, $l){
+  margin-top:$t;
+  margin-right:$r;
+  margin-bottom:$b;
+  margin-left:$l;
+}
+
+
+    Se usaria 
+    
+.jumbotron{
+  background: $yellow;
+}
+#btnPrincipiante, #btnIntermedio{
+  @include rellenos(2px,2px,2px,2px);
+}
+*/
