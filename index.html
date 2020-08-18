@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Tutoriales JavaScript | tutorias.co</title>
   </head>
   <body>
@@ -33,10 +33,10 @@
         <h1>Banco de Tutoriales JavaScript</h1>
         <p>Accede a este banco completo de tutoriales sobre programación nativa en JavaScript.</p>
         <div>
-        <span class="badge badge-pill badge-success" data-toggle="modal" data-target="#infoModal" >
+        <span class="badge badge-pill badge-secondary" data-toggle="modal" data-target="#infoModal" id="btnPrincipiante" >
             &#9745; principiante
         </span>       
-        <br /><span class="badge badge-pill badge-info" data-toggle="modal" data-target="#infoModal"  >
+        <br /><span class="badge badge-pill badge-secondary" data-toggle="modal" data-target="#infoModal" id="btnIntermedio" >
             &#9745; intermedio
         </span>
         </div>
@@ -51,6 +51,16 @@
               </div>
               <div class="modal-body">
                 <p>Contenido básico para iniciados e intermedios en el lenguaje JavaScript. Los iniciados aprenderán declaración e inicialización de variables y constantes así como la implementación de enunciados de decisión, ciclos y estructuras de datos. Los intermedios aprenderán a crear funciones recursivas y programación orientada a objetos.</p>
+                <hr />
+                <form class="form" method="post" action="">
+                  <div class="form-group">
+                     <label for="email">Preinscripción</label>
+                     <input class="form-control" type="email" name="email" id="email" value="" placeholder="Tu correo electrónico" required autofocus />
+                  </div>
+                  <div class="form-group">
+                     <input class="form-control btn btn-primary" type="submit" name="enviar" id="enviar" value="Enviar" />
+                  </div>
+                </form>
               </div>
             </div>
           </div>
@@ -111,7 +121,7 @@
     </div>
     <div class="card-columns">
       <div class="card tutoriales justify-content-between mr-3">
-        <img class="card-img-top" src="images/variables.png" alt="" />
+        <img class="card-img-top" src="images/variables.jpg" alt="" />
         <div class="card-body">
         <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Declaración y nombramiento correcto de variables" >Variables</h5>
         <h6 class="card-subtitle text-muted">Con Scope</h6>
@@ -120,7 +130,7 @@
         <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia"  title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial de variables"  role="button">Estudiar &raquo;</a></div>
       </div>
       <div class="card tutoriales justify-content-between mr-3">
-        <img class="card-img-top" src="images/condicionales.png" alt="" />
+        <img class="card-img-top" src="images/condicionales.jpg" alt="" />
         <div class="card-body">
         <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Condicionales y uso eficiente de expresiones lógicas y booleanas" >Enunciados de decisión <span class="badge badge-primary">Nuevo</span></h5>
         <h6 class="card-subtitle text-muted">Con eficiencia</h6>
@@ -129,7 +139,7 @@
         <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia"  title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial de enunciados de decisión"  role="button">Estudiar &raquo;</a></div>
       </div>
       <div class="card tutoriales justify-content-between">
-        <img class="card-img-top" src="images/ciclos.png" alt="" />
+        <img class="card-img-top" src="images/ciclos.jpg" alt="" />
         <div class="card-body">
         <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Cuidado del orden de magnitud y análisis de posible uso o no de ciclos" >Estructuras repetitivas</h5>
         <h6 class="card-subtitle text-muted">Con eficiencia</h6>
@@ -138,7 +148,7 @@
         <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia"  title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial ee ciclos"  role="button">Estudiar &raquo;</a></div>
       </div>
       <div class="card tutoriales justify-content-between">
-        <img class="card-img-top" src="images/arrays.png" alt="" />
+        <img class="card-img-top" src="images/arrays2.jpg" alt="" />
         <div class="card-body">
         <h5 class="card-title"  data-toggle="tooltip" data-placement="top" title="Manejo sencillo de stack y queue nativos" >Estructuras de datos</h5>
         <h6 class="card-subtitle text-muted">Estáticas y de auto dimension</h6>
@@ -147,7 +157,7 @@
         <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia"  title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial de Arrays"  role="button">Estudiar &raquo;</a></div>
       </div>
       <div class="card tutoriales justify-content-between">
-        <img class="card-img-top" src="images/funciones.png" alt="" />
+        <img class="card-img-top" src="images/funciones2.jpg" alt="" />
         <div class="card-body">
         <h5 class="card-title"  data-toggle="tooltip" data-placement="top" title="parámetros por valor y por referencia" >Funciones</h5>
         <h6 class="card-subtitle text-muted">Parámetros con o sin referencia</h6>
@@ -156,7 +166,7 @@
         <div><a class="btn btn-outline-warning btn-lg btn-tutoriales" href="https://youtube.com/tutoriascolombia" title="Acceder como suscriptor" data-toggle="popover" data-content="Ir directamente al tutorial de funciones/recursividad"  role="button">Estudiar &raquo;</a></div>
       </div>
       <div class="card tutoriales justify-content-between">
-        <img class="card-img-top" src="images/poo.png" alt="" />
+        <img class="card-img-top" src="images/poo2.jpg" alt="" />
         <div class="card-body">
         <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Nuevo paradigma de programación"  >POO <span class="badge badge-pill badge-danger">LIVE</span></h5>
         <h6 class="card-subtitle text-muted">Clases estandarizadas [Martes 6PM CO]</h6>
@@ -199,8 +209,34 @@
       $("[data-toggle='tooltip']").tooltip();
       $("[data-toggle='popover']").popover();
       $('.carousel').carousel({
-       interval: 3000;
+        interval:3000
       });
+      
+      $('#infoModal').on('show.bs.modal', function (e){
+         $('#btnPrincipiante').prop('disabled',true);
+         $('#btnIntermedio').prop('disabled',true);
+         $('#btnPrincipiante').removeClass('badge-secondary');
+         $('#btnIntermedio').removeClass('badge-secondary');
+         $('#btnPrincipiante').addClass('badge-success');
+         $('#btnIntermedio').addClass('badge-success');
+         console.log('Comienza a abrirse');
+      });
+      $('#infoModal').on('shown.bs.modal', function (e){
+         console.log('Termina de abrirse')
+      });
+      $('#infoModal').on('hidden.bs.modal', function (e){
+         console.log('Comienza a cerrarse');
+      });
+      $('#infoModal').on('hidden.bs.modal', function (e){
+         $('#btnPrincipiante').prop('disabled',false);
+         $('#btnIntermedio').prop('disabled',false);
+         $('#btnPrincipiante').removeClass('badge-success');
+         $('#btnIntermedio').removeClass('badge-success');
+         $('#btnPrincipiante').addClass('badge-secondary');
+         $('#btnIntermedio').addClass('badge-secondary');
+         console.log('Termina de cerrarse');
+      });
+     
     });
   </script>
   </body>
